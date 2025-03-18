@@ -11,11 +11,10 @@ Pre-requisites :
 
 Setup Steps :
 
-git clone https://github.com/AkimotoAyako/VisionTasker.git
-conda create -n visiontasker python=3.8
-pip install -r requirements.txt
-
-Place pre-trained models (target detection model and CLIP) under pt_model/ (Google drive path will be shared separately)
+1. git clone https://github.com/AkimotoAyako/VisionTasker.git
+2. conda create -n visiontasker python=3.8
+3. pip install -r requirements.txt
+4. Place pre-trained models (target detection model and CLIP) under pt_model/ (Google drive path will be shared separately)
 
 Input Method
 For text input on your phone, please refer to ADBKeyBoard and install the corresponding applications on both your phone and computer.
