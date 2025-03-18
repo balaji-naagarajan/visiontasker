@@ -20,7 +20,7 @@ Setup Steps :
 Additional Steps :
 
 1. update values in core\Config.py for DeviceName and Keyboard
-2. Update path to font in
+2. Update path to font in PIL/ImageFont.py (in case of any errors)
 
 Input Method
 For text input on your phone, please refer to ADBKeyBoard and install the corresponding applications on both your phone and computer.
