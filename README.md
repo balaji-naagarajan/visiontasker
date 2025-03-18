@@ -15,6 +15,7 @@ Setup Steps :
 2. conda create -n visiontasker python=3.8
 3. pip install -r requirements.txt
 4. Place pre-trained models (target detection model and CLIP) under pt_model/ (Google drive path will be shared separately)
+5. Clip : https://github.com/openai/CLIP.git
 
 Input Method
 For text input on your phone, please refer to ADBKeyBoard and install the corresponding applications on both your phone and computer.
