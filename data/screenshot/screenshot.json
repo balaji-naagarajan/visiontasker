@@ -1,0 +1,406 @@
+[
+    "alignment: v",
+    {
+        "id": "c-30",
+        "class": "Text",
+        "sub_class": "Text",
+        "text_content": "Caption: Settings",
+        "pair_to": "",
+        "location": {
+            "left": 297,
+            "right": 419,
+            "top": 82,
+            "bottom": 120
+        }
+    },
+    {
+        "id": "c-9",
+        "class": "Compo",
+        "sub_class": "edittext",
+        "text_content": "Default text: (Search Here)Search settings",
+        "pair_to": "",
+        "location": {
+            "left": 10,
+            "right": 698,
+            "top": 151,
+            "bottom": 223
+        }
+    },
+    {
+        "id": "b-0",
+        "class": "Block",
+        "alignment": "h",
+        "children": [
+            {
+                "id": "c-31",
+                "class": "Text",
+                "sub_class": "Text",
+                "text_content": "About phone",
+                "pair_to": "7",
+                "location": {
+                    "left": 138,
+                    "right": 311,
+                    "top": 275,
+                    "bottom": 307
+                }
+            },
+            {
+                "id": "c-32",
+                "class": "Text",
+                "sub_class": "Text",
+                "text_content": "MIUI Global 10.3",
+                "pair_to": "",
+                "location": {
+                    "left": 453,
+                    "right": 633,
+                    "top": 279,
+                    "bottom": 300
+                }
+            }
+        ],
+        "location": {
+            "left": 138,
+            "right": 633,
+            "top": 275,
+            "bottom": 307
+        }
+    },
+    {
+        "id": "c-33",
+        "class": "Text",
+        "sub_class": "Text",
+        "text_content": "System apps updater",
+        "pair_to": "5",
+        "location": {
+            "left": 138,
+            "right": 419,
+            "top": 378,
+            "bottom": 406
+        }
+    },
+    {
+        "id": "c-34",
+        "class": "Text",
+        "sub_class": "Text",
+        "text_content": "Security status",
+        "pair_to": "3",
+        "location": {
+            "left": 138,
+            "right": 338,
+            "top": 473,
+            "bottom": 505
+        }
+    },
+    {
+        "id": "c-35",
+        "class": "Text",
+        "sub_class": "Text",
+        "text_content": "Caption: WIRELESS&NETWORKS",
+        "pair_to": "",
+        "location": {
+            "left": 48,
+            "right": 298,
+            "top": 572,
+            "bottom": 594
+        }
+    },
+    {
+        "id": "b-1",
+        "class": "Block",
+        "alignment": "h",
+        "children": [
+            {
+                "id": "c-8",
+                "class": "Compo",
+                "sub_class": "buttonicon",
+                "text_content": "Folder, favorites button",
+                "pair_to": "",
+                "location": {
+                    "left": 46,
+                    "right": 93,
+                    "top": 642,
+                    "bottom": 689
+                }
+            },
+            {
+                "id": "c-29",
+                "class": "Compo",
+                "sub_class": "switch",
+                "text_content": "the open toggle of SiM cards & mobile networks",
+                "pair_to": "36",
+                "location": {
+                    "left": 700,
+                    "right": 718,
+                    "top": 646,
+                    "bottom": 682
+                }
+            }
+        ],
+        "location": {
+            "left": 46,
+            "right": 718,
+            "top": 642,
+            "bottom": 689
+        }
+    },
+    {
+        "id": "b-2",
+        "class": "Block",
+        "alignment": "h",
+        "children": [
+            {
+                "id": "c-38",
+                "class": "Text",
+                "sub_class": "Text",
+                "text_content": "off ",
+                "pair_to": "",
+                "location": {
+                    "left": 595,
+                    "right": 640,
+                    "top": 747,
+                    "bottom": 775
+                }
+            },
+            {
+                "id": "c-28",
+                "class": "Compo",
+                "sub_class": "switch",
+                "text_content": "the open toggle of Wi-Fi",
+                "pair_to": "37",
+                "location": {
+                    "left": 696,
+                    "right": 720,
+                    "top": 743,
+                    "bottom": 784
+                }
+            }
+        ],
+        "location": {
+            "left": 595,
+            "right": 720,
+            "top": 743,
+            "bottom": 784
+        }
+    },
+    {
+        "id": "b-3",
+        "class": "Block",
+        "alignment": "h",
+        "children": [
+            {
+                "id": "c-40",
+                "class": "Text",
+                "sub_class": "Text",
+                "text_content": "off ",
+                "pair_to": "",
+                "location": {
+                    "left": 595,
+                    "right": 640,
+                    "top": 846,
+                    "bottom": 872
+                }
+            },
+            {
+                "id": "c-27",
+                "class": "Compo",
+                "sub_class": "switch",
+                "text_content": "the open toggle of Bluetooth",
+                "pair_to": "39",
+                "location": {
+                    "left": 691,
+                    "right": 720,
+                    "top": 838,
+                    "bottom": 882
+                }
+            }
+        ],
+        "location": {
+            "left": 595,
+            "right": 720,
+            "top": 838,
+            "bottom": 882
+        }
+    },
+    {
+        "id": "b-4",
+        "class": "Block",
+        "alignment": "h",
+        "children": [
+            {
+                "id": "c-41",
+                "class": "Text",
+                "sub_class": "Text",
+                "text_content": "Portable hotspot",
+                "pair_to": "2",
+                "location": {
+                    "left": 136,
+                    "right": 361,
+                    "top": 941,
+                    "bottom": 975
+                }
+            },
+            {
+                "id": "c-42",
+                "class": "Text",
+                "sub_class": "Text",
+                "text_content": "off ",
+                "pair_to": "",
+                "location": {
+                    "left": 595,
+                    "right": 640,
+                    "top": 943,
+                    "bottom": 972
+                }
+            },
+            {
+                "id": "c-25",
+                "class": "Compo",
+                "sub_class": "buttonicon",
+                "text_content": "picture",
+                "pair_to": "",
+                "location": {
+                    "left": 694,
+                    "right": 720,
+                    "top": 914,
+                    "bottom": 1000
+                }
+            }
+        ],
+        "location": {
+            "left": 136,
+            "right": 720,
+            "top": 914,
+            "bottom": 1000
+        }
+    },
+    {
+        "id": "b-5",
+        "class": "Block",
+        "alignment": "h",
+        "children": [
+            {
+                "id": "c-43",
+                "class": "Text",
+                "sub_class": "Text",
+                "text_content": "Data usage",
+                "pair_to": "0",
+                "location": {
+                    "left": 135,
+                    "right": 289,
+                    "top": 1038,
+                    "bottom": 1074
+                }
+            },
+            {
+                "id": "c-6",
+                "class": "Compo",
+                "sub_class": "buttonicon",
+                "text_content": "picture",
+                "pair_to": "",
+                "location": {
+                    "left": 700,
+                    "right": 718,
+                    "top": 1007,
+                    "bottom": 1083
+                }
+            }
+        ],
+        "location": {
+            "left": 135,
+            "right": 718,
+            "top": 1007,
+            "bottom": 1083
+        }
+    },
+    {
+        "id": "c-44",
+        "class": "Text",
+        "sub_class": "Text",
+        "text_content": "More",
+        "pair_to": "23",
+        "location": {
+            "left": 133,
+            "right": 212,
+            "top": 1134,
+            "bottom": 1171
+        }
+    },
+    {
+        "id": "c-45",
+        "class": "Text",
+        "sub_class": "Text",
+        "text_content": "PERSONAL",
+        "pair_to": "",
+        "location": {
+            "left": 45,
+            "right": 163,
+            "top": 1236,
+            "bottom": 1261
+        }
+    },
+    {
+        "id": "c-46",
+        "class": "Text",
+        "sub_class": "Text",
+        "text_content": "Display",
+        "pair_to": "10",
+        "location": {
+            "left": 135,
+            "right": 237,
+            "top": 1310,
+            "bottom": 1348
+        }
+    },
+    {
+        "id": "b-6",
+        "class": "Block",
+        "alignment": "h",
+        "children": [
+            {
+                "id": "c-26",
+                "class": "Compo",
+                "sub_class": "buttonicon",
+                "text_content": "Shrink button",
+                "pair_to": "",
+                "location": {
+                    "left": 196,
+                    "right": 223,
+                    "top": 1378,
+                    "bottom": 1404
+                }
+            },
+            {
+                "id": "c-21",
+                "class": "Compo",
+                "sub_class": "buttonicon",
+                "text_content": "Loading, circle, shutter button",
+                "pair_to": "",
+                "location": {
+                    "left": 336,
+                    "right": 379,
+                    "top": 1371,
+                    "bottom": 1413
+                }
+            },
+            {
+                "id": "c-24",
+                "class": "Compo",
+                "sub_class": "buttonicon",
+                "text_content": "Play, Enter button",
+                "pair_to": "",
+                "location": {
+                    "left": 486,
+                    "right": 525,
+                    "top": 1371,
+                    "bottom": 1411
+                }
+            }
+        ],
+        "location": {
+            "left": 196,
+            "right": 525,
+            "top": 1371,
+            "bottom": 1413
+        }
+    }
+]

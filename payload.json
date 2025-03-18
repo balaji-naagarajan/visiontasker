@@ -1,0 +1,56 @@
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "You need to act as an intelligent assistant. Now, I need to complete a specific task on a mobile app but am unsure how to proceed. Please tell me which element to click on or what specific content to input on the mobile interface to accomplish the task. My question is Q, and your answer is A. I will execute the instructions you provide and give you feedback on the interface (one Q at a time), and you can then instruct me on the next step (one A at a time). You only need to provide one step of the operation command."
+        },
+        {
+            "role": "assistant",
+            "content": "I will act as an intelligent assistant to help you complete the specified task. Each time you ask, I will provide only one step of the operation command."
+        },
+        {
+            "role": "user",
+            "content": "Each time you answer me, you need to carefully determine the values in the operation command based on task requirements, previously clicked controls, and keyboard input: xxx, yyy. xxx should be the complete content of the control I provide. If I have given you information from the help document, please consider it as a reference in your response."
+        },
+        {
+            "role": "assistant",
+            "content": "I will only answer one step at a time, and I will carefully determine the values in the operation command based on task requirements, previously clicked controls, keyboard input, or information you provide from the help document: xxx, yyy. xxx should be the complete content of the control you provide. If you provide information from the help document, my response will prioritize the help document as a reference."
+        },
+        {
+            "role": "user",
+            "content": "You need to consider the task requirements and all control information on the current interface. Note that the current interface may not be the initial one, and some operations may have already been completed. You should assess what action to take next and provide a standardized operation command."
+        },
+        {
+            "role": "assistant",
+            "content": "I will definitely provide you with a standardized operation command based on the task requirements and all control information on the current interface."
+        },
+        {
+            "role": "user",
+            "content": "If performing a tap action, be sure to answer in this format: A: tap_action: Click['xxx']. If performing a content input action in an input box, be sure to answer in this format: A: input_action: In the input box:['xxx'] type(\u201cyyy\u201d) and press Enter. xxx, yyy are both text, and xxx should be the complete content of the provided control. Avoid mentioning the next step, do not repeat the interface information you provided, and avoid unnecessary explanations."
+        },
+        {
+            "role": "assistant",
+            "content": "I understand the two types of operation commands, and I will output the commands in the specified format."
+        },
+        {
+            "role": "user",
+            "content": "Here is an example of a tap action:\n        Q: I want to go back to the main page. Let's think step by step. The current interface is as follows:\n        First row - From left to right, the buttons are:\n        ['Forward or skip to the right, play, or YouTube']; Input box: ['Search for videos, anime, or creators']; ['Search'];\n        Second row - ['ADB Keyboard (ON)']\n        A: tap_action: Click['Forward or skip to the right, play, or YouTube']."
+        },
+        {
+            "role": "assistant",
+            "content": "Okay, if performing a tap action, I will answer in this format: A: tap_action: Click['xxx']. Now, please provide me with an example of a content input action."
+        },
+        {
+            "role": "user",
+            "content": "Here is an example of a content input action:\n        Q: I want to watch 'Jay Chou Concert.' Let's think step by step. The current interface is as follows:\n        First row - From left to right, the buttons are:\n        ['Mirror flip icon key']; Input box: ['Default text: Lady Gaga']; ['Search, magnify key']; ['si3']; ['Mail, message symbol key'];\n        Second row - From left to right, the controls are:\n        ['Home']; ['Translation, or text-with-image key']; ['Member Purchase']; ['My']; ['Plus key'];\n        A: input_action: In the input box: ['Default text: Lady Gaga'] type('Jay Chou Concert') and press Enter."
+        },
+        {
+            "role": "assistant",
+            "content": "Okay, if performing a content input action, I will answer in this format: A: input_action: In the input box: ['xxx'] type('yyy') and press Enter."
+        },
+        {
+            "role": "user",
+            "content": "Q\uff1am open calculator application\uff0cThe current interface has the following buttons: \n\u7b2c1\u884c -  \u4ece\u5de6\u5230\u53f3\u4e3a\u4ee5\u4e0b\u63a7\u4ef6:\n ['Calculator']\uff1b ['Security']\uff1b [' Google']\uff1b ['Chrome']\uff1b ['Tools']\uff1b ['themes']\uff1b ['Gallery']\uff1b ['Play Store']\uff1b ['Settings']\uff1b ['picture']\uff1b ['Dial or reject button']\uff1b ['Earth, map, browser button']\uff1b ['Discs, albums, playlists button']\uff1b\u3002"
+        }
+    ]
+}
