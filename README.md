@@ -17,5 +17,10 @@ Setup Steps :
 4. Place pre-trained models (target detection model and CLIP) under pt_model/ (Google drive path will be shared separately)
 5. Clip : https://github.com/openai/CLIP.git
 
+Additional Steps :
+
+1. update values in core\Config.py for DeviceName and Keyboard
+2. Update path to font in
+
 Input Method
 For text input on your phone, please refer to ADBKeyBoard and install the corresponding applications on both your phone and computer.
