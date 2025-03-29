@@ -13,7 +13,6 @@ Setup Steps :
 
 1. git clone https://github.com/AkimotoAyako/VisionTasker.git
 2. Python 3.9 is required. [Please jump to Installation Instructions](#installation-instructions)
-   Once the environment is set up using either method, you can run the project's scripts as described in the project's documentation.
 
    Note: Official Project docuemnt recommends using Python3.8. However, there are issues in setting up the python 3.8 in Macbook. PyMUPDF package dist is  not stable. So, we have updated to Python3.9 and updated the dependency versions in the setup and it is verified and tested in Macbook.
 
