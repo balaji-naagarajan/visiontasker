@@ -99,10 +99,6 @@ This document provides instructions for setting up the project environment. You 
         ```bash
         conda env create -f environment.yml
         ```
-    -   **Important: Handling the `prefix` issue:**
-        -   The provided `environment.yml` file contains a `prefix` that is specific to the original user's machine. Before creating the environment, you need to remove this line or modify it.
-        -   You can remove the `prefix: /Users/parthasarathy.rathinavel/miniforge3/envs/visiontasker-env` line from the `environment.yml` file using a text editor. Conda will then create the environment in the default location.
-        -   Alternatively, you can edit the prefix to a desired location on your own machine, but removing it is generally recommended for portability.
 
 3.  **Activate the Conda Environment:**
     -   Activate the newly created environment:
