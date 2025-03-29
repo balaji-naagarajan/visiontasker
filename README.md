@@ -27,6 +27,7 @@ pt_model/
 ```
 
 5. Clip : https://github.com/openai/CLIP.git
+6. Run the script main_en_auto.py .
 
 Additional Steps :
 
@@ -111,7 +112,4 @@ This document provides instructions for setting up the project environment. You 
         ```bash
         conda list
         ```
-
-## Running the Script
-
 
