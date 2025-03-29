@@ -28,7 +28,7 @@ def rescale_bboxes(out_bbox, size):
 # 目标检测结果显示
 def plot_results_detr(pil_img, prob, boxes, CLASSES, show_bu_show, clean_save):
     # 用PIL画图转换成opencv
-    font_path = 'D:/UI_datasets/other_codes/simhei.ttf'  # 指定字体文件路径
+    font_path = '/Users/parthasarathy.rathinavel/Projects/visiontasker/fonts/SimHei.ttf'  # 指定字体文件路径
     font = ImageFont.truetype(font_path, 35)
     cv_img = cv2.cvtColor(np.array(pil_img), cv2.COLOR_RGB2BGR)  # 先转cv2扩大一个白边
     cv_img = cv2.copyMakeBorder(cv_img, 40, 0, 0, cv_img.shape[1] // 3, cv2.BORDER_CONSTANT, value=(255, 255, 255))
@@ -60,7 +60,7 @@ def plot_results_detr(pil_img, prob, boxes, CLASSES, show_bu_show, clean_save):
 
 def plot_results_yolo(pil_img, classes, prob, boxes, CLASSES, show_bu_show, clean_save):
     # 用PIL画图转换成opencv
-    font_path = 'D:/UI_datasets/other_codes/simhei.ttf'  # 指定字体文件路径
+    font_path = '/Users/parthasarathy.rathinavel/Projects/visiontasker/fonts/SimHei.ttf'  # 指定字体文件路径
     font = ImageFont.truetype(font_path, 35)
     cv_img = cv2.cvtColor(np.array(pil_img), cv2.COLOR_RGB2BGR)  # 先转cv2扩大一个白边
     cv_img = cv2.copyMakeBorder(cv_img, 40, 0, 0, cv_img.shape[1] // 3, cv2.BORDER_CONSTANT, value=(255, 255, 255))

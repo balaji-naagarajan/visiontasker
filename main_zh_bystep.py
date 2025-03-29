@@ -22,6 +22,7 @@ if input_ProcessImgModel:
     # 导入模型 开机仅一次即可
     import GPUtil
     gpus = GPUtil.getGPUs()
+    print("GPUSSSSSSS", gpus)
     now_gpu = gpus[0]
     if now_gpu.memoryFree/now_gpu.memoryTotal > 0.9:
         print('你的装备是：', now_gpu.name, '现在使用的内存：', now_gpu.memoryFree, '/', now_gpu.memoryTotal, '哈哈没人和你抢')

@@ -40,7 +40,8 @@ elif choose_phone == "真机redmi":
     DeviceName = "2d6e3364" #USB连接
     DefaultInputKeyboard = "com.huawei.ohos.inputmethod/com.android.inputmethod.latin.LatinIME"
 DefaultInputKeyboard = "com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME"
-DeviceName = "bd37a835"
+
+DeviceName = "e25a3154"
 ADBKeyboard = "com.android.adbkeyboard/.AdbIME"
 # Keyboard input requires installing ADBKeyboard.apk (search online)
 # Input method settings:

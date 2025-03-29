@@ -437,7 +437,7 @@ class GUI:
 
     def visualize_result_img_all(self):
         # 因为有中文所以需要处理
-        font_path = '/data4/bianyiheng/simhei.ttf'
+        font_path = '/Users/parthasarathy.rathinavel/Projects/visiontasker/fonts/SimHei.ttf'
         font_size = 12
         font = ImageFont.truetype(font_path, font_size)
         board = self.img_resized.copy()  # 新建画布 所有的控件（灰色框）+ 彩色 橙非文本蓝文本 上号下字
