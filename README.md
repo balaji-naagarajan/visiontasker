@@ -26,7 +26,7 @@ pt_model/
 └── yolo_vins_14_mdl.pt
 ```
 
-5. Clip : https://github.com/openai/CLIP.git
+5. Add the openai key in the core/llm_api.py
 6. Run the script main_en_auto.py .
 
 Additional Steps :
