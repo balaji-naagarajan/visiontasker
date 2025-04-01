@@ -1,4 +1,4 @@
-# visiontasker
+![image](https://github.com/user-attachments/assets/c2449421-b7f3-4633-8faa-175398a1345e)# visiontasker
 
 Two-stage framework combining vision-based UI understanding and LLM task planning for mobile task automation in a step-by-step manner.
   1. Vision-Based UI Understanding
@@ -11,7 +11,7 @@ Pre-requisites :
 
 Setup Steps :
 
-1. git clone https://github.com/AkimotoAyako/VisionTasker.git
+1. git clone https://github.com/balaji-naagarajan/visiontasker.git
 2. Python 3.9 is required. [Please jump to Installation Instructions](#installation-instructions)
 
    Note: Official Project docuemnt recommends using Python3.8. However, there are issues in setting up the python 3.8 in Macbook. PyMUPDF package dist is  not stable. So, we have updated to Python3.9 and updated the dependency versions in the setup and it is verified and tested in Macbook.
@@ -32,7 +32,9 @@ pt_model/
 Additional Steps :
 
 1. update values in core\Config.py for DeviceName and Keyboard
-2. Update path to font in PIL/ImageFont.py (in case of any errors)
+2. Update path to font in <python-env>/lib/site-packages/PIL/ImageFont.py (line 257 in case of any errors with font)
+   self.font = core.getfont("C:\\Windows\\Fonts\\arial.ttf", size, index, encoding, layout_engine=layout_engine)
+
 
 Input Method
 For text input on your phone, please refer to ADBKeyBoard and install the corresponding applications on both your phone and computer.
