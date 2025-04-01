@@ -33,7 +33,7 @@ Additional Steps :
 
 1. update values in core\Config.py for DeviceName and Keyboard
 2. Update path to font in <python-env>/lib/site-packages/PIL/ImageFont.py (line 257 if the following error occurs :     self.font = core.getfont(OSError: cannot open resource)
-Add font path in line 257 -> self.font = core.getfont("C:\\Windows\\Fonts\\arial.ttf", size, index, encoding, layout_engine=layout_engine)
+   Add font path in line 257 -> self.font = core.getfont("C:\\Windows\\Fonts\\arial.ttf", size, index, encoding, layout_engine=layout_engine)
 
 
 Input Method
