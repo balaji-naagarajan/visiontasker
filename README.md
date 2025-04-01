@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c2449421-b7f3-4633-8faa-175398a1345e)# visiontasker
+Visiontasker
 
 Two-stage framework combining vision-based UI understanding and LLM task planning for mobile task automation in a step-by-step manner.
   1. Vision-Based UI Understanding
